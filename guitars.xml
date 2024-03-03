@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE guitars SYSTEM "guitars.dtd">
+<?xml-stylesheet type="text/xsl" href="transform.xslt"?>
+
+<guitars>
+    <guitar type="electric" color="red">
+        <brand>Fender</brand>
+        <model>Stratocaster</model>
+        <year>2001</year>
+        <url>https://media.justmusic.de/Artikelbilder/Shopsystem/625px_V2/9182625_1.jpg</url>
+        <price>1500</price>
+        <pickup>Single-coil</pickup>
+        <rating>5</rating>
+    </guitar>
+
+    <guitar type="electric" color="black">
+        <brand>Gibson</brand>
+        <model>Les Paul</model>
+        <year>2019</year>
+        <url>https://riff.net.pl/68464-large_default/gibson-les-paul-classic-ebony-modern.jpg</url>
+        <price>2000</price>
+        <pickup>Humbucker</pickup>
+        <rating>4.8</rating>
+    </guitar>
+
+    <guitar type="electric" color="green">
+        <brand>Epiphone</brand>
+        <model>SG Standard</model>
+        <year>2021</year>
+        <url>
+            https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_48/482597/15587020_800.jpg</url>
+        <price>800</price>
+        <pickup>Humbucker</pickup>
+        <rating>4.7</rating>
+    </guitar>
+
+    <guitar type="electric" color="sienna">
+        <brand>PRS</brand>
+        <model>Custom 24</model>
+        <year>2022</year>
+        <url>
+            https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_49/498532/15468575_800.jpg</url>
+        <price>3000</price>
+        <pickup>Humbucker</pickup>
+        <rating>4.9</rating>
+    </guitar>
+
+    <guitar type="acoustic" color="brown">
+        <brand>Taylor</brand>
+        <model>322ce</model>
+        <year>2022</year>
+        <url>https://d1aeri3ty3izns.cloudfront.net/media/50/504709/600/preview.jpg</url>
+        <price>3000</price>
+        <pickup>Yes</pickup>
+        <rating>4.9</rating>
+    </guitar>
+
+    <guitar type="acoustic" color="sienna">
+        <brand>Martin</brand>
+        <model>D-28</model>
+        <year>2020</year>
+        <url>
+            https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_55/556279/18534258_800.jpg</url>
+        <price>2500</price>
+        <pickup>No</pickup>
+        <rating>4.7</rating>
+    </guitar>
+
+    <guitar type="acoustic" color="black">
+        <brand>Yamaha</brand>
+        <model>FG800</model>
+        <year>2022</year>
+        <url>https://d1aeri3ty3izns.cloudfront.net/media/50/502099/1200/preview.jpg</url>
+        <price>600</price>
+        <pickup>No</pickup>
+        <rating>4.5</rating>
+    </guitar>
+
+    <guitar type="bass" color="blue">
+        <brand>Ibanez</brand>
+        <model>SR500</model>
+        <year>2024</year>
+        <url>
+            https://www.studiogears.com/media/catalog/product/cache/e73145e642ebec4d5e62fa283ada2ce7/image/59168fa2/ibanez-sr500-electric-bass-sapphire-blue-flat-sku-number-sr500sbf.jpg</url>
+        <price>1200</price>
+        <pickup>Active</pickup>
+        <rating>4.5</rating>
+    </guitar>
+
+    <guitar type="bass" color="black">
+        <brand>Fender</brand>
+        <model>Jazz Bass</model>
+        <year>2008</year>
+        <url>
+            https://images.musicstore.de/images/1280/fender-classic-60s-jazz-bass-pau-ferro-fretboard-black_1_BAS0009093-000.jpg</url>
+        <price>1300</price>
+        <pickup>Single-coil</pickup>
+        <rating>4.6</rating>
+    </guitar>
+
+    <guitar type="bass" color="red">
+        <brand>Sterling by Music Man</brand>
+        <model>Ray4</model>
+        <year>2020</year>
+        <url>
+            https://rvb-img.reverb.com/image/upload/s--2mChVg65--/f_auto,t_supersize/v1605826283/ks17gqqsjpgobmygauvl.png</url>
+        <price>700</price>
+        <pickup>Single-coil</pickup>
+        <rating>4.6</rating>
+    </guitar>
+</guitars>

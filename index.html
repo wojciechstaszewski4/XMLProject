@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="author" content="Wojciech Staszewski">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="favicon.png" type="image/png">
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="script.js"></script>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <title>Guitar Catalog</title>
+</head>
+
+<body>
+   <header>
+      <h1 id="guitarCatalog">Guitar Catalog</h1>
+   </header>
+
+   <div class="container">
+      <div class="button-container">
+         <button class="button" onclick="showAll()">Show All</button>
+         <button class="button" onclick="filterByType('electric')">Electric</button>
+         <button class="button" onclick="filterByType('acoustic')">Acoustic</button>
+         <button class="button" onclick="filterByType('bass')">Bass</button>
+      </div>
+
+      <form onsubmit="filterByText(); return false;">
+         <input type="text" id="searchInput" placeholder="Search by brand or model">
+         <input class="button" type="submit" value="Search">
+      </form>
+
+      <div id="guitarList"></div>
+   </div>
+
+   <footer>
+      &copy; 2024 Guitar Catalog by Wojciech Staszewski. All rights reserved.
+   </footer>
+</body>
+
+</html>

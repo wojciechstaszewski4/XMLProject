@@ -1,0 +1,11 @@
+<!ELEMENT guitars (guitar+)>
+<!ELEMENT guitar (brand, model, year, url, price, pickup?, rating)>
+<!ATTLIST guitar type CDATA #REQUIRED>
+<!ATTLIST guitar color CDATA #IMPLIED>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT pickup (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
