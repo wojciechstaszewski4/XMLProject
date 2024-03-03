@@ -32,7 +32,6 @@
 
 - Create "Show" button to show all content of XML file.
 - Create 3 buttons (values of attribute "type" will be buttons caption) to display filtered items based on values of attribute "type".
-- Create a form for full-text search in values of a selected element. Select one element with text content in your XML file. The form will contain one text input only.
-  The expected value in this field is the value of the selected XML element. After submitting the form, display filtered items based on the value of this field.
+- Create a form for full-text search in values of a selected element. Select one element with text content in your XML file. The form will contain one text input only. The expected value in this field is the value of the selected XML element. After submitting the form, display filtered items based on the value of this field.
 
 #### The project files must focus on a consistent theme with a logical connection. All project files must by validate with actual W3C requirements. ####
