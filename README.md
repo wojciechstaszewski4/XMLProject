@@ -1,4 +1,4 @@
-##Create an original set of XML files with the following requirements:##
+## Create an original set of XML files with the following requirements: ##
 
  ###1. Write an XML file on a topic of interest to you (except for businesscards, books, cars, airplanes or other topic from lesson).###
 
