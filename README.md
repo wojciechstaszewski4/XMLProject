@@ -1,37 +1,82 @@
-## Create an original set of XML files with the following requirements: ##
+# 🗂️ Custom XML Project  
 
- ### 1. Write an XML file on a topic of interest to you (except for businesscards, books, cars, airplanes or other topic from lesson). ###
+This repository contains a set of XML-based files and associated resources to create, display, and interact with structured data using modern web technologies. The project follows the specifications below to showcase the power of **XML**, **XSLT**, **CSS**, **DTD**, and **JavaScript**.  
 
-- Obviously, it should have a root element.
-- The file must contain data for at least 10 items - e.g., 10 books; 10 products, etc.
-- Every item must have attribute "type" with any value. I recommend maximum three selected values for this attribute.
-- Every item must have more than 3 subitems (sub-element).
-- One of those sub-elements must be URL address to accurate picture of item.
-- Two elements must have any attributes.
+---
 
-### 2. Create an XSLT stylesheet that generates, from your previous xml file, interesting HTML page. ###
+## 📖 Project Overview  
 
-- This file must be properly associated with the .xml file.
-- Show accurate picture from XML URL sub-element.
-- Show different colour background for each item. Background must depend on the value of "type" attribute. 
+### 1️⃣ **XML File**  
+A custom XML file designed around a topic of interest, containing:  
+- A root element with data for **at least 10 items**.  
+- Each item includes:  
+  - An attribute `type` with one of three possible values.  
+  - At least **three sub-elements**, one of which is a URL to an accurate picture of the item.  
+  - Two sub-elements with additional attributes.  
 
-### 3. Write CSS file to add good looking design to you generated page. ###
+---
 
-- This file must be properly associated with xslt file.
-- Use various colours, fonts, undent and margin for text elements.
-- Use a page background image or a background colour.
+### 2️⃣ **XSLT Stylesheet**  
+The XSLT stylesheet transforms the XML data into a visually appealing **HTML page** with the following features:  
+- Dynamically displays images using URLs from the XML file.  
+- Assigns **different background colours** based on the value of the `type` attribute.  
 
-### 4. Write a DTD file for the XML file you created. ###
+---
 
-- This file must be properly associated with the xml file and the .xml file must validate against the DTD.
-- Define all the XML elements and what can be contained in them.
-- Define the child element with the either/or values.
-- Define the attributes with default or requirement values.
+### 3️⃣ **CSS Stylesheet**  
+The CSS file enhances the look of the generated HTML page by:  
+- Adding **background colours**, custom fonts, margins, and padding.  
+- Using a **background image** or a subtle background colour for the page.  
 
-### 5. Create HTML page with JavaScript for read and filter (use the XPath) information from XML file. ###
+---
 
-- Create "Show" button to show all content of XML file.
-- Create 3 buttons (values of attribute "type" will be buttons caption) to display filtered items based on values of attribute "type".
-- Create a form for full-text search in values of a selected element. Select one element with text content in your XML file. The form will contain one text input only. The expected value in this field is the value of the selected XML element. After submitting the form, display filtered items based on the value of this field.
+### 4️⃣ **DTD File**  
+The DTD file defines and validates the structure of the XML file by:  
+- Declaring all elements and their hierarchy.  
+- Specifying the allowed attributes, their types, and whether they are required or optional.  
 
-#### The project files must focus on a consistent theme with a logical connection. All project files must by validate with actual W3C requirements. ####
+---
+
+### 5️⃣ **HTML with JavaScript (XPath)**  
+An interactive HTML file powered by JavaScript allows users to:  
+- Click a "Show All" button to display the entire XML content.  
+- Use **three filter buttons** to display items based on their `type` attribute.  
+- Perform a **full-text search** in a specific element of the XML file and display filtered results.  
+
+---
+
+## 🚀 Features  
+
+- **Dynamic Transformation:** Generate HTML directly from XML using XSLT.  
+- **Custom Styling:** Make the generated page visually appealing with CSS.  
+- **Interactive Filtering:** Use JavaScript and XPath for dynamic data manipulation.  
+- **Validation:** Ensure the XML file conforms to the DTD schema.  
+
+---
+
+## 📂 File Structure  
+
+- **XML File:** `custom_data.xml` (Custom XML with 10+ items)  
+- **XSLT File:** `transform.xsl` (Transforms XML into HTML)  
+- **CSS File:** `style.css` (Styles the HTML output)  
+- **DTD File:** `custom_data.dtd` (Defines and validates the XML structure)  
+- **HTML with JavaScript:** `interactive.html` (Interactive page to display and filter XML content)  
+
+---
+
+## 🎯 How to Run  
+
+1. **Open XML File:** Validate the XML file against the provided DTD.  
+2. **Transform XML:** Use the XSLT stylesheet to generate the HTML file.  
+3. **Add Styling:** Ensure the CSS file is linked to the generated HTML for enhanced visuals.  
+4. **Interactive Display:** Open the `interactive.html` file in a browser and explore filtering and search features powered by JavaScript.  
+
+---
+
+## 🔍 Validation  
+
+All files are designed to comply with the latest **W3C standards** for XML, XSLT, DTD, and CSS.  
+
+---
+
+This project demonstrates the seamless integration of XML, XSLT, CSS, and JavaScript, showcasing how structured data can be transformed into dynamic, user-friendly web pages.  
